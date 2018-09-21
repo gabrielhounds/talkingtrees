@@ -65,6 +65,11 @@ body, * {
 	box-sizing: border-box;
 }
 
+a {
+	color: auto;
+	text-decoration: none;
+}
+
 body {
 	background-color: #96d9ff;
 	background-color: #FFF;
@@ -93,7 +98,9 @@ header {
 
 	nav {
 		width: 70%;
+		//width: 30%;
 		height: 33.33%;
+		//åheight: 0;
 		//background-color: fuchsia;
 	}
 
@@ -114,7 +121,7 @@ header {
 		height: 33.33%;
 		//font-family: 'Amatic SC', cursive;
 		font-family: 'Josefin Sans', sans-serif;
-		font-size: 1.0em;
+		font-size: 0.9em;
 		font-weight: normal;
 		text-align: center;
 		align-self: center;
@@ -137,14 +144,21 @@ nav {
 
 .navItem {
 	color: #FFF;
-	width: 14%;
+	width: 100%;
+	width: 33.33%;
 	height: 50%;
 	font-family: 'Josefin Sans', sans-serif;
-	font-size: 1.2em;
+	font-size: 1.4em;
 	margin-top: 2%;
 	text-align: center;
 	//color: #000;
 	//background-color: aqua;
+	filter: drop-shadow(0px 0px 2px #000);
+
+	a {
+		color: #FFF;
+	}
+
 }
 
 #video {
