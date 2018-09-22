@@ -89,6 +89,7 @@ main {
 	width: 100vw;
 	height: 100vh;
 	//overflow: hidden;
+	overflow-x: hidden;
 }
 
 header {
@@ -144,7 +145,7 @@ header {
 		//font-family: 'Amatic SC', cursive;
 		font-family: 'Josefin Sans', sans-serif;
 		font-size: 0.9em;
-		font-weight: lighter;
+		font-weight: normal;
 		text-align: center;
 		align-self: center;
 		line-height: 2;
