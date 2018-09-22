@@ -8,6 +8,6 @@ function init() {
 
 	var t = TweenMax;
 
-	t.from($('body'), 25.0, {backgroundPosition:'center 60%', ease:Expo.easeOut});
+	t.from($('body'), 25.0, {backgroundPosition:'center 20%', ease:Expo.easeOut});
 
 }
