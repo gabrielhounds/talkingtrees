@@ -136,6 +136,7 @@ header {
 		//line-height: 5;
 		//background-color: rgba(0, 196, 255, 0.43);
 		filter: drop-shadow(0px 0px 2px #000);
+		line-height: 4;
 	}
 
 	h4 {
@@ -152,11 +153,17 @@ header {
 		margin-top: 1%;
 		//background-color: rgba(0, 196, 255, 0.43);
 		filter: drop-shadow(0px 0px 2px #000);
+		line-height: 1.2;
 	}
 }
 
 .lighter {
 	font-weight: lighter;
+}
+
+.price {
+	font-weight: lighter;
+	font-size: 0.8em;
 }
 
 nav {

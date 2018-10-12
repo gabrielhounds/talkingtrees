@@ -85,6 +85,7 @@ header h3 {
   text-align: center;
   align-self: center;
   filter: drop-shadow(0px 0px 2px #000);
+  line-height: 4;
 }
 
 header h4 {
@@ -99,10 +100,16 @@ header h4 {
   line-height: 2;
   margin-top: 1%;
   filter: drop-shadow(0px 0px 2px #000);
+  line-height: 1.2;
 }
 
 .lighter {
   font-weight: lighter;
+}
+
+.price {
+  font-weight: lighter;
+  font-size: 0.8em;
 }
 
 nav {
